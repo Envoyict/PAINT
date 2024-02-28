@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/Assest/baground.webp);
+  background-repeat: no-repeat;
+  background-position: right, top;
+  background-attachment: fixed;
+  background: linear-gradient(#f0f9ff, #f4faff);
+  opacity: 80;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.logo {
+  height: 50px;
+  width: 100px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  border: 0px;
+  padding: 20px;
+}
+
+ul,li,a {
+  margin: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #102a43;
+  font-weight: bold;
+}
+
+ul,
+li,a:hover {
+  color: #41beff;
+}
+
+.loginside {
+  display: flex;
+  padding: 10px;
+  list-style: none;
+}
+
+.get {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.get:hover {
+  background-color: #41beff;
+  color: white;
+}
+
+.bar {
+  background-color: #dff1ff;
+  width: 50%;
+  height: 27px;
+  position: relative;
+  left: 340px;
+  border-radius: 15px;
+}
+
+.bar span {
+  margin-left: 10px;
+}
+
+
+
+.header {
+  color: #102a43;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 27pt;
+  background-image: url(/Assest/baground.webp);
+}
+
+.header span {
+  color: #06a0f1;
+}
+
+.say{
+    color:#7F94A9;
+    font-size: 20px;
+}
+.goggleb{
+    position: relative;
+    gap:60px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.goggleb .b{
+    height: 50px;
+    width: 160px;
+    border-radius: 15px;
+}
+.sect{display: flex;
+    justify-content: center;
+background-image: url(/Assest/Mobile-App-Connections-BG.webp);
+}
+
+.roll{
+    display: flex;
+    justify-content: center;
+gap:  70pt;
+}
+
+.type{
+    font-size: 30pt;
+    color:#102A43
+}
+
+.type span{
+    color: #41BEFF;
+}
